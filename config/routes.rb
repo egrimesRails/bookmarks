@@ -1,4 +1,5 @@
 Bookmarks::Application.routes.draw do
+  get "static_pages/bookmarks"
   resources :bookmarks
 
   # The priority is based upon order of creation: first created -> highest priority.

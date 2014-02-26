@@ -23,3 +23,17 @@ describe Bookmark do
     it { should_not be_valid }
   end
 end
+
+  describe "bookmarks page" do
+    
+    it "should exist" do
+      visit '/bookmarks'
+    end
+  end
+  
+  describe "new bookmarks page" do
+    
+    it "should exist" do
+      visit '/bookmarks/new'
+    end
+  end
